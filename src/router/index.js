@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Login from '@/components/Login'
 import Register from '@/components/Register'
 import Role from '@/components/role/Role'
+import Employee from '@/components/admin/Employee'
 Vue.use(Router)
 
 export default new Router({
@@ -21,6 +22,7 @@ export default new Router({
         {path:'/register',component:Register}
       ]
     },
-    {path:'/role',component:Role}
+    {path:'/role',component:Role},
+    {path:'/employee',component:Employee}
   ]
 })
